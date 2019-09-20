@@ -1,0 +1,99 @@
+body{
+	font-family: "Roboto", sans-serif;
+}
+.content{
+	position: relative;
+}
+.wlui-header{
+	position: absolute;
+	padding-top: 8px;
+}
+.wlui-header-logo{
+	width: 35px;
+	display: inline-block;
+}
+.wlui-header-logo img{
+	max-width: 100%;
+}
+.wlui-hero-jumbotron{
+	color: white;
+		background: linear-gradient(rgba(0, 74, 117, 0.8), rgba(0, 74, 117, 0.8)), url('../img/work-desk__dustin-lee.jpg');
+		background-repeat: no-repeat;
+  	background-position: center;
+  	background-size:cover;
+  	background-attachment: fixed;
+}
+.wlui-hero-jumbotron-container{
+	padding: 125px 15px;
+}
+.wlui-hero-jumbotron h1, .wlui-hero-jumbotron h2, .wlui-hero-jumbotron h3, .wlui-hero-jumbotron h4, .wlui-hero-jumbotron h5{
+	font-weight: normal;
+}
+.wlui-btn-transparent{
+	color: white;
+	background-color: transparent !important;
+    text-transform: uppercase;
+    border-color: white;
+    outline: none !important;
+    padding: 13px 23px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid white !important;
+}
+.wlui-btn-transparent:active, .wlui-btn-transparent:hover, .wlui-btn-transparent:focus{
+	background-color: white !important;
+	border: 2px solid white !important;
+	color: #004a75 !important;
+	outline: none !important;
+}
+.wlui-btn-orange{
+	color: white;
+	background-color: #ff8000 !important;
+    outline: none !important;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.08rem;
+}
+.wlui-btn-orange:active, .wlui-btn-orange:hover, .wlui-btn-orange:focus{
+	background-color: #cc6600 !important;
+	color: white;
+	outline: none !important;
+}
+.wlui-text-weight-300{
+	font-weight: 300 !important;
+}
+.wlui-text-weight-400{
+	font-weight: 400 !important;
+}
+.wlui-footer-container{
+    background-color: #004a75;
+    color: #e5e5e5;
+    font-size: 0.75rem;
+}
+.wlui-article, .wlui-card{
+	background-color: #e5e5e5 !important;
+}
+.wlui-href{
+	color: #007bc1;
+}
+.wlui-card i{
+	opacity: 0.3;
+}
+.wlui-card .card-text{
+	line-height: 1.35rem;
+	font-size: 0.86rem;
+}
+.wlui-newsletter-panel{
+	color : white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	max-width: 640px;
+	background-color: rgba(0,123,193, 0.85);
+}
+.wlui-newsletter-panel-btn-close {
+	display: inline-block;
+}
+.wlui-content-container{
+	max-width: 1366px;
+}
